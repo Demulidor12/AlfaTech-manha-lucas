@@ -1,0 +1,379 @@
+/* global */
+
+body {
+    margin: 0 auto;
+    width: 100%;
+}
+
+span {
+    color: #307cd2
+}
+
+/* classes */
+
+/* topo */
+
+div.topo {
+    text-align: right;
+    padding: 4% 0;
+    position: relative;
+}
+
+.topo img {
+    width: 5%;
+    position: absolute;
+    top: 20%;
+    left: 15%   
+}
+
+.topo h1, .topo p {
+    position: absolute;
+    top: 16%;
+    left: 21%;
+}
+
+.topo p {
+    top: 43%;
+    color: blue;
+    font-size: 0.9vw;
+}
+
+.topo h1 {
+    font-size: 1.7vw;
+}
+
+.topo a {
+    margin-right: 2%;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.9vw;
+}
+
+a.topo {
+    margin-right: 18%;
+}
+
+/* banner */
+
+div.banner {
+    background-color: #2f86d6;
+    text-align: left;
+    padding: 10% 0;
+    position: relative;
+
+}
+
+.banner img {
+    position: absolute;
+    width: 30%;
+    top: 10%;
+    right: 10%;
+}
+
+.banner p, .banner h2 {
+    margin-left: 20%;
+    margin-right: 50%;
+    color: white;
+}
+
+.banner p {
+    font-size: 1vw;
+}
+
+.banner h2 {
+    font-size: 2vw;
+}
+
+/* anuncio1 */
+
+div.anucio1 {
+    background-color: #22303d;
+    padding: 0.1% 0;
+    position: relative;
+}
+
+.anucio1 h2, .anucio1 p {
+    margin-left: 20%;
+}
+
+.anucio1 h2 {
+    font-size: 2vw;
+    color: white;
+}
+
+.anucio1 p {
+    margin-top: -1vw;
+    font-size: 1vw;
+    color: white;
+}
+
+.anucio1 a {
+    border: 1px #2f86d6 solid;
+    border-radius: 0.4vw;
+    background-color: #307cd2;
+    padding: 0.7%;
+    padding-left: 1.9%;
+    position: absolute;
+    top: 30%;
+    right: 15%;
+    font-size: 1vw;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.anucio1 img {
+    position: absolute;
+    right: 26%;
+    top: 42%;
+    width: 1.2vw;
+}
+
+/* informações */
+
+div.informações {
+    padding: 16% 0;
+    text-align: center;
+    position: relative;
+}
+
+.informações h2 {
+    font-size: 1.9vw;
+    margin: 0 27%;
+    margin-top: -12%;
+
+}
+
+/* conteudo */
+
+div.conteudo1 {
+    position: absolute;
+    top: 43%;
+    left: 12%;
+}
+
+.conteudo1 img, .conteudo1 h3 {
+    margin-right: 14%;
+}
+
+.conteudo1 img {
+    width: 5.5vw;
+    margin-left: 15%;
+}
+
+.conteudo1 h3 {
+    font-size: 1.0vw;
+    margin-left: 14%;
+}
+
+.conteudo1 p {
+    font-size: 1.0vw;
+    margin-right: 22%;
+    margin-left: 22%;
+}
+
+div.conteudo2 {
+    position: absolute;
+    top: 43%;;
+    left: 32%;
+}
+
+.conteudo2 img, .conteudo2 h3 {
+    margin-right: 14%;
+}
+
+.conteudo2 img {
+    width: 5.5vw;
+    margin-left: 15%;
+}
+
+.conteudo2 h3 {
+    font-size: 1.0vw;
+    margin-left: 14%;
+}
+
+.conteudo2 p {
+    font-size: 1.0vw;
+    margin-right: 22%;
+    margin-left: 22%;
+}
+
+div.conteudo3 {
+    position: absolute;
+    top: 43%;
+    left: 50%;
+}
+
+.conteudo3 img, .conteudo3 h3 {
+    margin-right: 14%;
+}
+
+.conteudo3 img {
+    width: 5.5vw;
+    margin-left: 24%;
+}
+
+.conteudo3 h3 {
+    font-size: 1.0vw;
+    margin-left: 24%;
+}
+
+.conteudo3 p {
+    font-size: 1.0vw;
+    margin-right: 10%;
+    margin-left: 22%;
+}
+
+/* planos */
+
+div.planos {
+    text-align: center;
+    position: relative;
+    padding-bottom: 32%;
+    
+}
+
+.planos h2{
+    font-size: 1.9vw;
+}
+
+.planos table {
+    margin-top: 0.1%;
+    width: 58vw;
+    border: 0.1vw #2f86d6 solid;
+    border-radius: 0.4vw;
+    box-sizing: border-box;
+    box-shadow: 0 0 3vw #2f86d6;
+    position: absolute;
+    left: 21%;
+    table-layout: fixed;
+}
+
+.planos img {
+    width: 4vw;
+    margin-bottom: -8%;
+}
+
+.planos th {
+    font-size: 0.9vw;
+}
+
+.planos p {
+    margin-top: 2vw;
+}
+
+.planos th p {
+    font-weight: 400;
+    color: rgb(187, 183, 183);
+}
+
+.planos td {
+    font-weight: bold;
+    font-size: 0.8vw;
+    padding: 2% 0;
+}
+
+.planos .a {
+    margin-top: 2%;
+}
+/* linha */
+
+td.linha {
+    background-color: #c7c7c3;
+}
+
+/* anucio2 */
+
+div.anucio2 {
+    background-color: #2f86d6;
+    padding: 0.1% 0;
+    position: relative;
+    
+}
+
+.anucio2 h2 {
+    margin-left: 23%;
+    margin-right: 44%;
+    font-size: 1.7vw;
+    color: white;
+}
+
+.anucio2 a {
+    border: 1px #22303d solid;
+    border-radius: 0.4vw;
+    background-color: #22303d;
+    padding: 0.7%;
+    padding-left: 1.9%;
+    position: absolute;
+    top: 30%;
+    right: 15%;
+    font-size: 1vw;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.anucio2 img {
+    position: absolute;
+    right: 26.2%;
+    top: 42%;
+    width: 1.2vw;
+}
+
+/* contato */
+
+div.contato {
+    position: relative;
+    padding-bottom: 2%;
+}
+
+.contato img {
+    width: 5%;
+    position: absolute;
+    top: -84%;
+    left: 43%   
+}
+
+.contato h1, p.logo {
+    position: absolute;
+    left: 49%;
+}
+
+p.logo {
+    top: -60%;
+    color: blue;
+    font-size: 0.9vw;
+}
+
+.contato h1 {
+    top: -89%;
+    font-size: 1.7vw;
+}
+
+p.contato1, p.contato2, p.contato3, p.contato4{
+    font-size: 0.9vw;
+    font-weight: bold;
+    text-align: center;
+}
+
+p.contato1 {
+    margin-top: 10%;
+ 
+}
+
+/* rodapé */
+
+div.rodapé {
+    background-color: rgb(233, 233, 233);
+    padding: 1%;
+    position: relative;
+}
+
+p.rodapé {
+    font-size: 0.7vw;
+    position: absolute;
+    bottom: -0.3vw;
+    left: 44%;
+    font-weight: bold;
+}
